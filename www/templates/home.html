@@ -4,7 +4,7 @@
 <ion-content class="has-header">
 <ion-list>
   <ion-item ng-repeat="item in items">
-    {{ item.text }}
+    {{ item.event }}:{{ item.text }}
   </ion-item>
   <ion-item ng-if="items.length==0">
 	No message
